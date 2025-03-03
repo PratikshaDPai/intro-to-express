@@ -4,7 +4,7 @@ const app = express();
 
 // Define a route for the root URL "/"
 app.get("/", (req, res) => {
-  res.status(200).send("Hello, World!\n");
+  res.status(200).send("<h1>Hello, World!</h1>"); //status is optional, but recommended
 });
 
 // Start the server on port 8000
